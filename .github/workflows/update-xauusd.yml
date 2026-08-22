@@ -28,10 +28,11 @@ jobs:
             "https://xauusd-h1-bridge.haresiba0208.workers.dev/" \
             -o XAUUSD_H1.json
 
-      - name: Validate downloaded data
+      - name: Validate and create CSV
         run: |
           python - <<'PY'
           import json
+          import csv
           import sys
 
           with open("XAUUSD_H1.json", "r", encoding="utf-8") as f:
@@ -55,9 +56,34 @@ jobs:
               print("ERROR: no H1 bars received")
               sys.exit(1)
 
+          with open("XAUUSD_H1.csv", "w", newline="", encoding="utf-8") as f:
+              writer = csv.writer(f)
+
+              writer.writerow([
+                  "time",
+                  "open",
+                  "high",
+                  "low",
+                  "close",
+                  "volume",
+                  "tickVolume"
+              ])
+
+              for bar in bars:
+                  writer.writerow([
+                      bar.get("time"),
+                      bar.get("open"),
+                      bar.get("high"),
+                      bar.get("low"),
+                      bar.get("close"),
+                      bar.get("volume", 0),
+                      bar.get("tickVolume", 0)
+                  ])
+
           print("XAUUSD H1 data validated")
           print("Closed bars:", len(bars))
           print("Latest closed bar:", data.get("latestClosedBar"))
+          print("CSV created: XAUUSD_H1.csv")
           PY
 
       - name: Commit updated data
@@ -65,7 +91,7 @@ jobs:
           git config user.name "xauusd-h1-bot"
           git config user.email "xauusd-h1-bot@users.noreply.github.com"
 
-          git add XAUUSD_H1.json
+          git add XAUUSD_H1.json XAUUSD_H1.csv
 
           if git diff --cached --quiet; then
             echo "No data change"
