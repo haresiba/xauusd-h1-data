@@ -1,0 +1,75 @@
+name: Update XAUUSD H1 Data
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-xauusd:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download XAUUSD H1 data
+        run: |
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --retry 3 \
+            --retry-delay 5 \
+            "https://xauusd-h1-bridge.haresiba0208.workers.dev/" \
+            -o XAUUSD_H1.json
+
+      - name: Validate downloaded data
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+
+          with open("XAUUSD_H1.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          if data.get("ok") is not True:
+              print("ERROR: upstream returned ok != true")
+              sys.exit(1)
+
+          if data.get("symbol") != "XAUUSD":
+              print("ERROR: symbol is not XAUUSD")
+              sys.exit(1)
+
+          if data.get("timeframe") != "1h":
+              print("ERROR: timeframe is not 1h")
+              sys.exit(1)
+
+          bars = data.get("bars")
+
+          if not isinstance(bars, list) or len(bars) == 0:
+              print("ERROR: no H1 bars received")
+              sys.exit(1)
+
+          print("XAUUSD H1 data validated")
+          print("Closed bars:", len(bars))
+          print("Latest closed bar:", data.get("latestClosedBar"))
+          PY
+
+      - name: Commit updated data
+        run: |
+          git config user.name "xauusd-h1-bot"
+          git config user.email "xauusd-h1-bot@users.noreply.github.com"
+
+          git add XAUUSD_H1.json
+
+          if git diff --cached --quiet; then
+            echo "No data change"
+          else
+            git commit -m "Update XAUUSD H1 data"
+            git push
+          fi
