@@ -3,30 +3,21 @@
   "symbol": "XAUUSD",
   "timeframe": "1h",
   "source": "BiQuote",
-  "requestedFrom": "2026-06-26T08:59:26.885Z",
-  "requestedTo": "2026-08-25T08:59:26.885Z",
-  "fetchedAt": "2026-08-25T08:59:26.885Z",
+  "requestedFrom": "2026-06-26T09:50:43.214Z",
+  "requestedTo": "2026-08-25T09:50:43.214Z",
+  "fetchedAt": "2026-08-25T09:50:43.214Z",
   "closedBarCount": 168,
   "minimum720Satisfied": false,
   "latestClosedBar": {
-    "time": "2026-08-25T07:00:00Z",
-    "open": 4638.472,
-    "high": 4643.98,
-    "low": 4629.828,
-    "close": 4630.32,
+    "time": "2026-08-25T08:00:00Z",
+    "open": 4630.548,
+    "high": 4645.404,
+    "low": 4620.175,
+    "close": 4630.325,
     "volume": 0,
-    "tickVolume": 10564
+    "tickVolume": 12261
   },
   "bars": [
-    {
-      "time": "2026-08-14T00:00:00Z",
-      "open": 4356.677,
-      "high": 4362.328,
-      "low": 4329.329,
-      "close": 4340.986,
-      "volume": 0,
-      "tickVolume": 9722
-    },
     {
       "time": "2026-08-14T01:00:00Z",
       "open": 4341,
@@ -1529,6 +1520,15 @@
       "close": 4630.32,
       "volume": 0,
       "tickVolume": 10564
+    },
+    {
+      "time": "2026-08-25T08:00:00Z",
+      "open": 4630.548,
+      "high": 4645.404,
+      "low": 4620.175,
+      "close": 4630.325,
+      "volume": 0,
+      "tickVolume": 12261
     }
   ]
 }
