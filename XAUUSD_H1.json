@@ -3,9 +3,9 @@
   "symbol": "XAUUSD",
   "timeframe": "1h",
   "source": "BiQuote",
-  "requestedFrom": "2026-06-26T07:07:29.041Z",
-  "requestedTo": "2026-08-25T07:07:29.041Z",
-  "fetchedAt": "2026-08-25T07:07:29.041Z",
+  "requestedFrom": "2026-06-26T07:57:40.528Z",
+  "requestedTo": "2026-08-25T07:57:40.528Z",
+  "fetchedAt": "2026-08-25T07:57:40.528Z",
   "closedBarCount": 168,
   "minimum720Satisfied": false,
   "latestClosedBar": {
