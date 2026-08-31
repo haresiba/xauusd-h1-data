@@ -3,93 +3,21 @@
   "symbol": "XAUUSD",
   "timeframe": "1h",
   "source": "BiQuote",
-  "requestedFrom": "2026-07-02T05:32:31.995Z",
-  "requestedTo": "2026-08-31T05:32:31.995Z",
-  "fetchedAt": "2026-08-31T05:32:31.995Z",
+  "requestedFrom": "2026-07-02T13:46:50.207Z",
+  "requestedTo": "2026-08-31T13:46:50.207Z",
+  "fetchedAt": "2026-08-31T13:46:50.207Z",
   "closedBarCount": 168,
   "minimum720Satisfied": false,
   "latestClosedBar": {
-    "time": "2026-08-31T04:00:00Z",
-    "open": 4422.714,
-    "high": 4425.147,
-    "low": 4412.945,
-    "close": 4424.729,
+    "time": "2026-08-31T12:00:00Z",
+    "open": 4455.603,
+    "high": 4461.189,
+    "low": 4435.487,
+    "close": 4435.673,
     "volume": 0,
-    "tickVolume": 5606
+    "tickVolume": 8434
   },
   "bars": [
-    {
-      "time": "2026-08-19T04:00:00Z",
-      "open": 4355.343,
-      "high": 4356.318,
-      "low": 4343.761,
-      "close": 4348.487,
-      "volume": 0,
-      "tickVolume": 4621
-    },
-    {
-      "time": "2026-08-19T05:00:00Z",
-      "open": 4348.389,
-      "high": 4350.666,
-      "low": 4335.206,
-      "close": 4335.568,
-      "volume": 0,
-      "tickVolume": 7544
-    },
-    {
-      "time": "2026-08-19T06:00:00Z",
-      "open": 4335.787,
-      "high": 4349.658,
-      "low": 4335.35,
-      "close": 4349.141,
-      "volume": 0,
-      "tickVolume": 8213
-    },
-    {
-      "time": "2026-08-19T07:00:00Z",
-      "open": 4349.081,
-      "high": 4363.205,
-      "low": 4347.659,
-      "close": 4355.059,
-      "volume": 0,
-      "tickVolume": 6033
-    },
-    {
-      "time": "2026-08-19T08:00:00Z",
-      "open": 4355.223,
-      "high": 4363.258,
-      "low": 4351.018,
-      "close": 4355.885,
-      "volume": 0,
-      "tickVolume": 6255
-    },
-    {
-      "time": "2026-08-19T09:00:00Z",
-      "open": 4355.848,
-      "high": 4362.055,
-      "low": 4353.409,
-      "close": 4361.935,
-      "volume": 0,
-      "tickVolume": 5591
-    },
-    {
-      "time": "2026-08-19T10:00:00Z",
-      "open": 4362.049,
-      "high": 4369.771,
-      "low": 4359.574,
-      "close": 4367.557,
-      "volume": 0,
-      "tickVolume": 5143
-    },
-    {
-      "time": "2026-08-19T11:00:00Z",
-      "open": 4367.677,
-      "high": 4374.276,
-      "low": 4363.224,
-      "close": 4364.927,
-      "volume": 0,
-      "tickVolume": 5745
-    },
     {
       "time": "2026-08-19T12:00:00Z",
       "open": 4364.714,
@@ -1529,6 +1457,78 @@
       "close": 4424.729,
       "volume": 0,
       "tickVolume": 5606
+    },
+    {
+      "time": "2026-08-31T05:00:00Z",
+      "open": 4424.733,
+      "high": 4444.112,
+      "low": 4419.162,
+      "close": 4442.921,
+      "volume": 0,
+      "tickVolume": 8540
+    },
+    {
+      "time": "2026-08-31T06:00:00Z",
+      "open": 4443.046,
+      "high": 4443.293,
+      "low": 4429.234,
+      "close": 4439.382,
+      "volume": 0,
+      "tickVolume": 7807
+    },
+    {
+      "time": "2026-08-31T07:00:00Z",
+      "open": 4439.583,
+      "high": 4448.49,
+      "low": 4435.091,
+      "close": 4443.253,
+      "volume": 0,
+      "tickVolume": 6468
+    },
+    {
+      "time": "2026-08-31T08:00:00Z",
+      "open": 4443.176,
+      "high": 4449.685,
+      "low": 4433.787,
+      "close": 4435.61,
+      "volume": 0,
+      "tickVolume": 6100
+    },
+    {
+      "time": "2026-08-31T09:00:00Z",
+      "open": 4436.063,
+      "high": 4445.722,
+      "low": 4435.508,
+      "close": 4445.327,
+      "volume": 0,
+      "tickVolume": 4976
+    },
+    {
+      "time": "2026-08-31T10:00:00Z",
+      "open": 4445.338,
+      "high": 4455.816,
+      "low": 4444.779,
+      "close": 4453.891,
+      "volume": 0,
+      "tickVolume": 5502
+    },
+    {
+      "time": "2026-08-31T11:00:00Z",
+      "open": 4454.042,
+      "high": 4464.17,
+      "low": 4452.547,
+      "close": 4455.342,
+      "volume": 0,
+      "tickVolume": 5588
+    },
+    {
+      "time": "2026-08-31T12:00:00Z",
+      "open": 4455.603,
+      "high": 4461.189,
+      "low": 4435.487,
+      "close": 4435.673,
+      "volume": 0,
+      "tickVolume": 8434
     }
   ]
 }
