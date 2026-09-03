@@ -3,57 +3,21 @@
   "symbol": "XAUUSD",
   "timeframe": "1h",
   "source": "BiQuote",
-  "requestedFrom": "2026-07-05T00:14:41.558Z",
-  "requestedTo": "2026-09-03T00:14:41.558Z",
-  "fetchedAt": "2026-09-03T00:14:41.558Z",
+  "requestedFrom": "2026-07-05T04:35:20.130Z",
+  "requestedTo": "2026-09-03T04:35:20.130Z",
+  "fetchedAt": "2026-09-03T04:35:20.130Z",
   "closedBarCount": 168,
   "minimum720Satisfied": false,
   "latestClosedBar": {
-    "time": "2026-09-02T23:00:00Z",
-    "open": 4384.803,
-    "high": 4389.041,
-    "low": 4381.25,
-    "close": 4385.527,
+    "time": "2026-09-03T03:00:00Z",
+    "open": 4420.352,
+    "high": 4432.67,
+    "low": 4419.38,
+    "close": 4431.39,
     "volume": 0,
-    "tickVolume": 3521
+    "tickVolume": 5989
   },
   "bars": [
-    {
-      "time": "2026-08-24T00:00:00Z",
-      "open": 4624.218,
-      "high": 4641.161,
-      "low": 4594.672,
-      "close": 4621.72,
-      "volume": 0,
-      "tickVolume": 12343
-    },
-    {
-      "time": "2026-08-24T01:00:00Z",
-      "open": 4621.776,
-      "high": 4637.793,
-      "low": 4608.096,
-      "close": 4632.362,
-      "volume": 0,
-      "tickVolume": 14332
-    },
-    {
-      "time": "2026-08-24T02:00:00Z",
-      "open": 4632.234,
-      "high": 4656.877,
-      "low": 4627.56,
-      "close": 4643.69,
-      "volume": 0,
-      "tickVolume": 12157
-    },
-    {
-      "time": "2026-08-24T03:00:00Z",
-      "open": 4643.828,
-      "high": 4650.264,
-      "low": 4633.442,
-      "close": 4641.589,
-      "volume": 0,
-      "tickVolume": 8151
-    },
     {
       "time": "2026-08-24T04:00:00Z",
       "open": 4641.741,
@@ -1529,6 +1493,42 @@
       "close": 4385.527,
       "volume": 0,
       "tickVolume": 3521
+    },
+    {
+      "time": "2026-09-03T00:00:00Z",
+      "open": 4385.731,
+      "high": 4397.889,
+      "low": 4382.549,
+      "close": 4395.43,
+      "volume": 0,
+      "tickVolume": 6640
+    },
+    {
+      "time": "2026-09-03T01:00:00Z",
+      "open": 4395.542,
+      "high": 4412.36,
+      "low": 4387.311,
+      "close": 4410.365,
+      "volume": 0,
+      "tickVolume": 10785
+    },
+    {
+      "time": "2026-09-03T02:00:00Z",
+      "open": 4410.513,
+      "high": 4420.649,
+      "low": 4406.695,
+      "close": 4420.649,
+      "volume": 0,
+      "tickVolume": 8182
+    },
+    {
+      "time": "2026-09-03T03:00:00Z",
+      "open": 4420.352,
+      "high": 4432.67,
+      "low": 4419.38,
+      "close": 4431.39,
+      "volume": 0,
+      "tickVolume": 5989
     }
   ]
 }
