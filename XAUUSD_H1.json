@@ -3,48 +3,21 @@
   "symbol": "XAUUSD",
   "timeframe": "1h",
   "source": "BiQuote",
-  "requestedFrom": "2026-07-23T17:02:19.913Z",
-  "requestedTo": "2026-09-21T17:02:19.913Z",
-  "fetchedAt": "2026-09-21T17:02:19.913Z",
+  "requestedFrom": "2026-07-23T21:03:11.542Z",
+  "requestedTo": "2026-09-21T21:03:11.542Z",
+  "fetchedAt": "2026-09-21T21:03:11.542Z",
   "closedBarCount": 168,
   "minimum720Satisfied": false,
   "latestClosedBar": {
-    "time": "2026-09-21T16:00:00Z",
-    "open": 4348.191,
-    "high": 4357.109,
-    "low": 4343.005,
-    "close": 4343.487,
+    "time": "2026-09-21T19:00:00Z",
+    "open": 4345.966,
+    "high": 4354.064,
+    "low": 4342.227,
+    "close": 4345.348,
     "volume": 0,
-    "tickVolume": 7239
+    "tickVolume": 5292
   },
   "bars": [
-    {
-      "time": "2026-09-10T09:00:00Z",
-      "open": 4394.815,
-      "high": 4397.106,
-      "low": 4388.409,
-      "close": 4394.091,
-      "volume": 0,
-      "tickVolume": 6854
-    },
-    {
-      "time": "2026-09-10T10:00:00Z",
-      "open": 4394.268,
-      "high": 4400.228,
-      "low": 4375.114,
-      "close": 4379.201,
-      "volume": 0,
-      "tickVolume": 9666
-    },
-    {
-      "time": "2026-09-10T11:00:00Z",
-      "open": 4379.148,
-      "high": 4390.856,
-      "low": 4374.471,
-      "close": 4374.471,
-      "volume": 0,
-      "tickVolume": 10264
-    },
     {
       "time": "2026-09-10T12:00:00Z",
       "open": 4374.877,
@@ -1529,6 +1502,33 @@
       "close": 4343.487,
       "volume": 0,
       "tickVolume": 7239
+    },
+    {
+      "time": "2026-09-21T17:00:00Z",
+      "open": 4343.716,
+      "high": 4346.963,
+      "low": 4337.393,
+      "close": 4344.692,
+      "volume": 0,
+      "tickVolume": 6358
+    },
+    {
+      "time": "2026-09-21T18:00:00Z",
+      "open": 4344.8,
+      "high": 4352.614,
+      "low": 4343.943,
+      "close": 4346.251,
+      "volume": 0,
+      "tickVolume": 5183
+    },
+    {
+      "time": "2026-09-21T19:00:00Z",
+      "open": 4345.966,
+      "high": 4354.064,
+      "low": 4342.227,
+      "close": 4345.348,
+      "volume": 0,
+      "tickVolume": 5292
     }
   ]
 }
